@@ -1,0 +1,81 @@
+                         atalhos
+ctrl+b -> fecha é abre aba de navegação de pastas vs code
+ctrl+s -> salvar o documento
+alt+z  -> organiza tudo no epaço
+p+lorem-> cria texo de marcação( se usar o operador *3>lorem + aquantodade de linhas que deseja criar)
+ctrl+k+c ->  seleciona e aplica o atalho comenta o trecho                             
+                         
+                           tags
+<head></head>        -> cabeça(tudo que não aparece para o usuário)
+<body></body>        -> corpo (conteúdo que aparece para o usuário)
+<title></title>      -> titulo 
+                           
+
+                           tag de imagem
+ <img src="caminho da imagem"> não possue fechamento,                        
+                            
+                         tag de link
+<a href="">texto que aparece para o usuário</a>  -> indicará o caminho do site a ser apontado
+<a href="" target="blank">texto que aparece para o usuário</a>  -> indicará o caminho do site a ser apontado em uma outra aba
+obs: caminho absoluto é o caminho completo do site
+obs: caminho relativo é o ele vai para outra página dentro da pagina atual, navega entre pastas e links
+                     
+                      tags cabeçario
+<h1></h1>  -> hierarquia de títulos  
+<h2></h2>  -> hierarquia de títulos  
+<h3></h3>  -> hierarquia de títulos  
+<h4></h4>  -> hierarquia de títulos  
+<h5></h5>  -> hierarquia de títulos  
+<h6></h6>  -> hierarquia de títulos  
+                 
+                 
+                      tag comentario                       
+<!--entere  elas é um comentário-->                          
+                 
+                  tags  formatação texto
+<p></p> -> parágafo
+<b></b> -> entre elas fica em negrito
+<strong></strong> -> tem o sentido de dar enfase
+<hr> -> separar seção com linha
+<br> -> quebrar  linha
+<i></i> -> entre elas fica itálico
+<u></u> -> entre elas fica underline (sublinhado)
+<small></small> -> entre elas fica pequeno
+<del></del> -> texto riscado(excluido)
+<strike></strike> -> texto riscado(excluido)
+<sup></sup> -> exponensial (sup de superior, que fica em cima)
+<sub></sub> -> exponensial (sub de inferior, que fica em baixo)
+<mark></mark> -> texto destacado(ou marcado)
+                          
+                  
+                    tags de citação
+<abbr></abbr> ->  cria pontos de marcação debaixo do conteúdo da uma esplicalção sobre 
+oque está entre as tag                           
+<abbress></abbress> -> endereço que renderiza en itálico ,todos os tipos de endereço
+<cite></cite> -> citação literal de uma obra fica em itálico
+<q></q>       -> coloca entre "" , oque estiver contido entre elas                         
+<blockquote></blockquote> deixa en destaque citação de um trecho                     
+<bdo dir="rtl" ou dir="ltr></bdo> -> inverter a ordem do  texto                            
+                     
+                     
+                      metatags
+<meta charset="UTF-8"> -> padrão de caracteres e asentuações compativel com a lingua    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">versões internet explore                    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">-> area visivel do usuario,
+ os elementos vão se adaptar deacordo com o
+<meta name="description" content="Esse é meu site"> ->descrição do site (pequena sinopse)
+<meta name="keywords" content="Estudante de programação"> -> palavras chaves pelos motores de busca
+<meta name="author" content="Rodolfo Cabral Junior">  autoria do site                          
+
+                    atributos
+
+lang=""   -> atributo definr o idioma 
+title=""  -> titulo
+dir="rtl" -> direita  para esquerda
+dir="ltr" -> esquerda para direita
+href=""   -> caminho de links a ser apontado
+target="blank" -> aponta para o alvo(seja aberto em uma nova aba)
+src=""    -> caminho de imagen a ser apontado 
+height="" -> altura (é medida em pixels)
+alt=""    -> texto alternativo para integração para deficientes visuais
+        
